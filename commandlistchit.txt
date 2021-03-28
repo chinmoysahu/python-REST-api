@@ -15,5 +15,7 @@ python manage.py runserver 0.0.0.0:8000
 
 #Database model migration creation
 python manage.py makemigrations profiles_api
-
 python manage.py migrate
+
+
+python manage.py createsuperuser
